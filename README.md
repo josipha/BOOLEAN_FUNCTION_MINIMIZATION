@@ -38,7 +38,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Developed by:SHARON CLARA A**                                                                                                                                                              
-**RegisterNumber:212224040310**                                                                                                                                                                                           
+**RegisterNumber:212224040310**    
 **DATE:12/03/2025**
 
 **Truth table & symbol:**
@@ -52,7 +52,8 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Timing Diagram**
 ![image](https://github.com/user-attachments/assets/91f40222-e8d2-432a-a6bd-039ddb523fff)
-![image](https://github.com/user-attachments/assets/ddfcf282-5e00-4f4e-80fb-dbb3a292ce95)
+![image](https://github.com/user-attachments/assets/ed7b78f8-f477-45a1-84c6-65074c7c3bec)
+
 
 
 
