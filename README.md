@@ -1,4 +1,6 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
+# NAME :JOSIPHA
+# REG NO: 212224220044
 
 **AIM:**
 
@@ -32,41 +34,42 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+
 ```
-First program:
+1)
 module EXP2(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
-assign f1=((~b&~d|a&b&~c|~a&b&d));
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
 endmodule
 
-Second program:
+```
+```
+2)
 module EXP2(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
-assign f2=((~y&z|x&y|w&y));
+assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
+
 ```
+TRUTH TABLE
 
 
-**Developed by:SHARON CLARA A**                                                                                                                                                              
-**RegisterNumber:212224040310**    
-**DATE:12/03/2025**
-
-**Truth table & symbol:**
-![WhatsApp Image 2025-03-19 at 10 05 17_ad83ae6d](https://github.com/user-attachments/assets/15d06142-3516-4f1d-b305-e357e0d11347)
-![WhatsApp Image 2025-03-19 at 10 09 34_9e0567b5](https://github.com/user-attachments/assets/d3adca37-8a49-4400-88d3-f651ea706b37)                                                                                                 
-
-**RTL realization Output:**                                                                                                                                                                                           ![image](https://github.com/user-attachments/assets/a5932a20-a600-42ae-b20f-1372db585113)
- ![image](https://github.com/user-attachments/assets/7cd3dc12-37a9-454b-aafe-abb678604d72)
+![Screenshot 2025-04-23 141442](https://github.com/user-attachments/assets/557da1a9-ff2d-4aa0-8015-51b909f2bf8b)
 
 
 
-**Timing Diagram**
-![image](https://github.com/user-attachments/assets/91f40222-e8d2-432a-a6bd-039ddb523fff)
-![image](https://github.com/user-attachments/assets/ed7b78f8-f477-45a1-84c6-65074c7c3bec)
 
 
+**Output:**
+
+![Screenshot 2025-04-16 185150](https://github.com/user-attachments/assets/e4c6e498-7126-4a23-a5d5-d96bdbf39901)
+
+
+**RTL**
+
+![Screenshot 2025-04-16 185719](https://github.com/user-attachments/assets/df30e8c2-98a9-41ac-8c51-15b8de14d35f)
 
 
 
